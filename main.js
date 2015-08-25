@@ -22,10 +22,30 @@
 
 
 
-// $(window).on("keydown", function(event) {
-// 	console.log(event.which);
-// 	if(event.which === 68) {
-// 		console.log()
-// 	}
+document.getElementById("myButton").addEventListener("click", function(){
+    document.getElementById("demo").innerHTML = "Make the boxes start to fade";
+}); //reset ALL "boxes class" to only "box"
+	//pressing start should launch the first background image
+	//and start the fading boxes
+	//and start the eventListener for the "Z" or "M" keys
+	//and start the var paused "true or false" logic
 
-// })
+function fadeBoxes() {
+	// if (boxes.className = "transparent")
+
+ var boxes = document.querySelectorAll(".box");
+ var randNum = Math.floor(Math.random() * ( boxes.length - 1 ) );
+ boxes[randNum].className += " transparent";
+}
+
+var interval = setInterval(fadeBoxes, 1000)
+//need to clean up so it only selects each box once
+
+
+
+//JS CODE BELOW that may help with fades if CSS doesn't do the job.
+// $(function() {
+// 	$('#fds img').each(function(i) {
+// 	$(this).delay((i++) * 500).fadeTo(1000, 1); })
+// });
+

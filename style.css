@@ -11,10 +11,6 @@ h1 {
 	padding-top: 15px;
 }
 
-h2 {
-	text-align: center;
-	color: blue;
-}
 
 div {
 	
@@ -27,7 +23,7 @@ div {
     margin: auto; 
 	height: 300px;
 	width: 400px;
-	border: 30px solid gold;
+	border: 30px solid red;
 
 }
 
@@ -46,3 +42,19 @@ button {
 	margin: 40px;
 }
 
+.demo {
+	text-align: center;
+	color: red;
+	font-size: 40px;
+	padding-top: 2px;
+
+}
+
+.needToFade {
+
+}
+
+.transparent {
+	background: none;
+	transition: all 2s;
+}
