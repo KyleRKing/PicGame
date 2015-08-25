@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: gray;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	padding-top: 15px;
+}
+
+h2 {
+	text-align: center;
+	color: blue;
+}
+
+div {
+	
+}
+
+#container {
+	background: url("http://www.wallpapersnewhd.com/wp-content/uploads/2014/09/Eiffel-Tower-Hd-Wallpapers-Free-Download-6.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto; 
+	height: 300px;
+	width: 400px;
+	border: 30px solid gold;
+
+}
+
+.box {
+	width: 50px;
+	height: 75px;
+	background:;
+	float: left;
+	border-size: 5px;
+	border-color: rgba(255,255,255,0);
+
+}
