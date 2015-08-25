@@ -129,7 +129,7 @@ var image14 = {
 var image15 = {
 	imageNumber: "15",
 	name: "Lincoln",
-	answers: "Lincoln", "Abraham Lincoln", "AbrahamLincoln", "Abe", "Honest Abe", "HonestAbe"],
+	answers: ["Lincoln", "Abraham Lincoln", "AbrahamLincoln", "Abe", "Honest Abe", "HonestAbe"],
 	url: "http://begorok.com/file/abraham_lincoln_pictures_of_his_kids.jpg"
 }
 
@@ -156,7 +156,7 @@ var image17 = {
 var image18 = {
 	imageNumber: "18",
 	name: "Bart",
-	answers: ["Bart Simpson", "BartSimpson", "Bart"]
+	answers: ["Bart Simpson", "BartSimpson", "Bart"],
 	url: "http://www.allfreevectors.com/images/Free%20Vector%20Bart%20Simpson%2001%20The%20Simpsons1838.jpg"
 }
 
@@ -165,7 +165,7 @@ var image18 = {
 var image19 = {
 	imageNumber: "19",
 	name: "Broccoli",
-	answers: ["Broccoli", "Brocoli", "Brocolli", "Brocali"]
+	answers: ["Broccoli", "Brocoli", "Brocolli", "Brocali"],
 	url: "http://www.4us2be.com/wp-content/uploads/2010/03/Calcium-Rich-And-Dairy-Free-Broccoli.jpg"
 }
 
@@ -174,6 +174,6 @@ var image19 = {
 var image20 = {
 	imageNumber: "20",
 	name: "Puffins",
-	answers: ["Puffin", "Puffins", "Pufins", "Pufin"]
+	answers: ["Puffin", "Puffins", "Pufins", "Pufin", "birds", "bird"],
 	url: "http://www.seaadventures.is/images/atlantic-puffin-seabird-blur-bg-u719.png"
 }

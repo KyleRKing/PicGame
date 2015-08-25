@@ -21,7 +21,7 @@ div {
 }
 
 #container {
-	background: url("http://www.wallpapersnewhd.com/wp-content/uploads/2014/09/Eiffel-Tower-Hd-Wallpapers-Free-Download-6.jpg");
+	background: url("http://www.seaadventures.is/images/atlantic-puffin-seabird-blur-bg-u719.png");
 	background-size: cover;
     background-repeat: no-repeat;
     margin: auto; 
@@ -34,9 +34,15 @@ div {
 .box {
 	width: 50px;
 	height: 75px;
-	background:;
+	background: white;
 	float: left;
 	border-size: 5px;
 	border-color: rgba(255,255,255,0);
 
 }
+
+button {
+	background: green;
+	margin: 40px;
+}
+
