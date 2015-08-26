@@ -17,7 +17,7 @@ div {
 }
 
 #container {
-	background: url("http://www.seaadventures.is/images/atlantic-puffin-seabird-blur-bg-u719.png");
+	/*background: url(urlImage); no longer needed as is set by the randomizer*/
 	background-size: cover;
     background-repeat: no-repeat;
     margin: auto; 
@@ -71,5 +71,14 @@ button {
     color: white;
     height: 40px;
     width: 40px;
+    text-align: center;
+}
+
+#answerInput {
+    font-size:  28;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 120px;
     text-align: center;
 }
