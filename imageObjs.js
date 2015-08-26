@@ -87,7 +87,7 @@ var imagesArray = [
 		imageNumber: "15",
 		name: "Lincoln",
 		answers: ["Lincoln", "Abraham Lincoln", "AbrahamLincoln", "Abe", "Honest Abe", "HonestAbe"],
-		url: "http://begorok.com/file/abraham_lincoln_pictures_of_his_kids.jpg"
+		url: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Lincoln-Warren-1865-03-06.jpeg"
 	},
 	{
 		imageNumber: "16",
