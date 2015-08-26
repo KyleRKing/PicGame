@@ -50,11 +50,26 @@ button {
 
 }
 
-.needToFade {
-
-}
 
 .transparent {
 	background: none;
 	transition: all 2s;
+}
+
+#score1 {
+    font-size:  28;
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+#score2 {
+    font-size:  28;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 40px;
+    text-align: center;
 }
