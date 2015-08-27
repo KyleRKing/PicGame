@@ -8,7 +8,7 @@ var imagesArray = [
 	{
 		imageNumber: "2",
 		name: "Queen",
-		answers: ["Queen Elizabeth", "QueenElizabeth", "Elizabeth", "Queen of England", "QueenofEngland"],
+		answers: ["Queen Elizabeth", "QueenElizabeth", "Elizabeth", "Queen of England", "QueenofEngland", "Queen Elizabeth II", "QueenElizabethII"],
 		url: "https://upload.wikimedia.org/wikipedia/commons/5/50/Queen_Elizabeth_II_March_2015.jpg"
 	},
 	{
@@ -51,7 +51,7 @@ var imagesArray = [
 		imageNumber: "9",
 		name: "Eiffel",
 		answers: ["Eiffel", "Eiffel Tower"],
-		url: ""
+		url: "http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=35352"
 	},
 	{
 		imageNumber: "10",

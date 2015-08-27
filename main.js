@@ -27,14 +27,21 @@ function fadeBoxes() {
 document.getElementById("myButton").addEventListener("click", start); 
 function start() {
 	resetBoxes() //removes the .class transparent from the white divs
-	//next two lines randomly selects the background image
 	var randomCount = Math.floor( Math.random() * ( imagesArray.length - 1 ) );
 	document.getElementById("container").style.backgroundImage = "url(" + imagesArray[randomCount].url + ")";
 	interval = setInterval(fadeBoxes, 1000)
 	correct=imagesArray[randomCount].answers
-		console.log(correct);		
+		console.log(correct);
+			
 }
 
+document.getElementById("resetGame").addEventListener("click", function() {
+	resetBoxes()
+	scores.player1=0;
+	scores.player2=0;
+	updateScores()
+
+})
 
 function resetBoxes() {
 	$(".box").removeClass("transparent")
@@ -93,6 +100,7 @@ function getAnswer(player){
 		alert('You might want to clean your GLASSES! You lost -10 points! Click "OK" for next round.')
 	}
 	updateScores();
+	declareWinner();
 } 
 
 
@@ -105,6 +113,13 @@ function updateScores(){
 }
 
 
+
+
 function declareWinner () {
-	// body...
+	if (scores.player1===50){
+		alert("Player Z Wins")
+
+	}else if(scores.player2===50){
+		alert("Player M Wins")
+	}
 }

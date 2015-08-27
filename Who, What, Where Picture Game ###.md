@@ -2,40 +2,59 @@
 
 ## Overview##
 
-Create picture recognition game, where two players try to guess the mystery picture first with the goal of scoring up to five points. 
+Two players compete against each other to guess a picture slowly being revealed on the screen.
+
+Player "Z" will press they "Z" key to pause the game and submit a guess.
+Player "M" will press they "M" key to pause the game and submit a guess.
+
+Choose CAREFULLY!
+
+A correct guess will reward the winner 10 points. An incorrect guess will demote your score -10 points. The current score will be displayed in the scoreboard.
+
+Players will continue to hit the "Play / Next Round" button until one player reaches a winning score of 50 points. An alert box will indicate the winner.
+
+Enjoy the game!
 
 
 
-Highlights:
+----------------------------------------------------------------------------------------
+*** SPOILER ALERT: Don't read the "thank you" until after you have played the game! ***
 
-*	Two player game competing against each other for the highest score.
+## SPECIAL THANKS ##
 
-* Board will include a large image, covered over with square blocks, that is on a timer and slowly revealed to the players over a 20 second duration.
+First, thank you to our General Assembly instructors:
 
-* The first player to press “Z” or “M” will be given the chance to guess what the name, place or object that is displayed.
+	- John McDonald
+	- Blaise Thomas
+	- Eric Hodonsky
 
-* If the player chooses correctly, they will be given a point. First player to 5 points wins.
+Additional thanks are extended to each and every classmate and "TA" that is a part of General Assembly.
 
-* If the player chooses incorrectly, the other player will be given the chance to guess in the remaining seconds.
+Lastly, thank you to the following for images available online:
 
-* The game board will also have an input area below the image for players to input their answers.
+	- Wikipedia:			Statue of Liberty
+							Queen Elizabeth II
+							Space Needle at Dusk
+							Albert Einstein
+							Kermit the Frog
+							President Abraham Lincoln
+							Austin Powers or Mike Myers
+	- NBC News:				White House
+							Mt. McKinley National Park
+	- Wallcon:				San Francisco Golden Gate Bridge
+	- HDWallPapersSOS:		Sydney Opera House
+	- CottoneAuctions:		President George Washington
+	- Polyvore:				Eiffel Tower
+	- Holiday Rentals,IL	New York Taxi Cab
+	- Christian Post		President Barak Obama
+	- ToRange				Moon
+	- AllFreeVectors		Bart Simpson
+	- 4us2be				Broccoli
+	- SeaAdventures			Puffins
 
-* A scoreboard will display the player’s current point status. Upon reaching 5 points, a winner will be announced.
 
-* A timer will also be displayed counting down from 20 seconds.
 
-* A  repository will be created of images and their corresponding answer.
 
-Needs:
 
-* Board game with large image space and equally sized box to cover it up. The cover box will slowly fade away.  
-* Score board with incrementations
-* Event listener for Z and M keys
-* Event listener for input box
-* Check system against input box to determine if true or false
-* 20 second counter
-* Pause function of the counter
-* End function if no answer within 20 seconds
-* Resume function if first answer is wrong...so second player can see board and offer possible guess
-* “Next Game” button to load next picture and reset timer
+
 
