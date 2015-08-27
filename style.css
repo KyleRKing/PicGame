@@ -58,7 +58,7 @@ button {
 
 #score1 {
     font-size:  28;
-    background-color: red;
+    background-color: green;
     color: white;
     height: 40px;
     width: 40px;
@@ -76,7 +76,7 @@ button {
 
 #answerInput {
     font-size:  28;
-    background-color: blue;
+    background-color: white;
     color: white;
     height: 40px;
     width: 120px;
