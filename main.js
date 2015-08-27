@@ -26,25 +26,23 @@ function fadeBoxes() {
 //THIS IS THE START LAUNCH LOGIC
 document.getElementById("myButton").addEventListener("click", start); 
 function start() {
-	resetBoxes //removes the .class transparent from the white divs
+	resetBoxes() //removes the .class transparent from the white divs
 	//next two lines randomly selects the background image
 	var randomCount = Math.floor( Math.random() * ( imagesArray.length - 1 ) );
 	document.getElementById("container").style.backgroundImage = "url(" + imagesArray[randomCount].url + ")";
 	interval = setInterval(fadeBoxes, 1000)
 	correct=imagesArray[randomCount].answers
-		console.log(correct);
-		
+		console.log(correct);		
 }
 
 
-resetBoxes = function() {  //function to do the remove process .class for transparent
-
-	$(".boxes").remove.class("transparent")
+function resetBoxes() {
+	$(".box").removeClass("transparent")
 }
 
 
-pictureReveal = function () {   //function to temp reveal the entire picture.
-	$(".boxes").add.class("transparent")
+function pictureReveal() {
+	$(".box").addClass("transparent")
 }
 
 
@@ -86,14 +84,12 @@ function getAnswer(player){
 	if (win){
 		scores[player] += 10; //add 10 points to player's score
 		console.log("you win");
-		// resumeInterval(interval);
-		pictureReveal
+		pictureReveal()
 		alert('You just earned 10 points! Click "OK" for next round.')
 	}else{
 		scores[player] -= 10; //remove 10 points from players score
 		console.log("you lose");
-		// resumeInterval(interval);
-		pictureReveal
+		pictureReveal()
 		alert('You might want to clean your GLASSES! You lost -10 points! Click "OK" for next round.')
 	}
 	updateScores();
