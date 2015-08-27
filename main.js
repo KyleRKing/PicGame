@@ -3,6 +3,10 @@ var imgCount = 20;
 var player1 = "Player 1";
 var player2 = "Player 2";
 var correct = null;
+var interval;
+var playerScore1 = [];
+var playerScore2 = [];
+
 
 function fadeBoxes() {
 	var boxes = document.querySelectorAll(".box");
@@ -15,7 +19,7 @@ function fadeBoxes() {
 	}
 }
 
-var interval;
+
 
 //THIS IS THE START LAUNCH LOGIC
 document.getElementById("myButton").addEventListener("click", start); 
@@ -27,8 +31,7 @@ function start() {
 	interval = setInterval(fadeBoxes, 1000)
 	correct=imagesArray[randomCount].answers
 		console.log(correct);
-	//check buzzer
-	
+		
 }
 
 
@@ -37,10 +40,8 @@ resetBoxes = function() {  //functioin to do the remove process .class for trans
 	$(".boxes").remove.class("transparent")
 }
 
-//score board arrays for each player
 
-//event listener for "Z" and "M" keys
-
+//////////event listener for "M" key player '1'
 document.body.addEventListener("keydown", function(e) {
 	if (e.which==77){
 		clearInterval(interval);
@@ -50,7 +51,7 @@ document.body.addEventListener("keydown", function(e) {
 });
 
 
-
+//////////event lister for "Z" key player "2"
 document.body.addEventListener("keydown", function(e) {
 	if (e.which==90){
 		clearInterval(interval);
@@ -78,7 +79,6 @@ function getAnswer(player){
 		}else{
 			console.log("you lose");
 		}
-
 }
 
 // $(document).ready(function () {
