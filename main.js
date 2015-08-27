@@ -37,11 +37,15 @@ function start() {
 }
 
 
-resetBoxes = function() {  //functioin to do the remove process .class for transparent
+resetBoxes = function() {  //function to do the remove process .class for transparent
 
 	$(".boxes").remove.class("transparent")
 }
 
+
+pictureReveal = function () {   //function to temp reveal the entire picture.
+	$(".boxes").add.class("transparent")
+}
 
 
 //////////event lister for "Z" key player "1"
@@ -80,14 +84,20 @@ function getAnswer(player){
 		}
 	}
 	if (win){
-		scores[player] += 10;
+		scores[player] += 10; //add 10 points to player's score
 		console.log("you win");
+		// resumeInterval(interval);
+		pictureReveal
+		alert('You just earned 10 points! Click "OK" for next round.')
 	}else{
-		scores[player] -= 10;
+		scores[player] -= 10; //remove 10 points from players score
 		console.log("you lose");
+		// resumeInterval(interval);
+		pictureReveal
+		alert('You might want to clean your GLASSES! You lost -10 points! Click "OK" for next round.')
 	}
 	updateScores();
-}
+} 
 
 
 
