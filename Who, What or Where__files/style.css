@@ -39,7 +39,7 @@ div {
 .box {
 	width: 50px;
 	height: 75px;
-	background: #510102;
+	background: white;
 	float: left;
 	border-size: 5px;
 	border-color: rgba(255,255,255,0);
