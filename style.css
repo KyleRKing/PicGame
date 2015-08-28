@@ -1,20 +1,21 @@
+
 body {
 	margin: 0;
 	padding: 0;
 	background: url(redbkwallpaper.jpg) center center no-repeat;
 }
 
+
+
 h1 {
 	text-align: center;
-	color: white;
+	color: #DAAD42;
 	font-size: 40px;
 	padding-top: 15px;
+	text-shadow: 2px 2px #3F0504;
 }
 
 
-div {
-	
-}
 
 .frame{
 	background: url(frame.png) center center no-repeat;
@@ -24,6 +25,8 @@ div {
 	margin: 0 auto;
 	position: relative;
 }
+
+
 
 #container {
 	background-size: cover;
@@ -36,6 +39,8 @@ div {
 	top: 95px;
 }
 
+
+
 .box {
 	width: 50px;
 	height: 75px;
@@ -43,8 +48,9 @@ div {
 	float: left;
 	border-size: 5px;
 	border-color: rgba(255,255,255,0);
-
 }
+
+
 
 #myButton {
 	background: #DEA72E;
@@ -52,10 +58,12 @@ div {
 	text-align: center;	
 	font-size: 15px;
 	position: absolute;
-	left: 70px;
+	left: 40px;
 	top: -400px;
 	padding: 20px;
 }
+
+
 
 #resetGame {
 	background: #3F0504;
@@ -63,33 +71,41 @@ div {
 	text-align: center;	
 	font-size: 15px;
 	position: absolute;
-	left: 120px;
+	left: 80px;
 	top: -300px;
 	padding: 8px;
 }
+
+
 
 .transparent {
 	background: none;
 	transition: all 1s;
 }
 
+
+
 #score1 {
     font-size:  28;
-    background-color: green;
-    color: white;
+    background-color: #A01717;
+    color: #DAAD42;
     height: 40px;
     width: 60px;
     text-align: center;
 }
 
+
+
 #score2 {
     font-size:  28;
-    background-color: blue;
-    color: white;
+    background-color: #770705;
+    color: #DAAD42;
     height: 40px;
     width: 60px;
     text-align: center;
 }
+
+
 
 #answerInput {
     font-size:  28;
@@ -99,7 +115,42 @@ div {
     width: 120px;
     text-align: center;
 }
+
+
+
 .holder {
 	margin: 0 auto;	
 	position: relative;
+}
+
+
+
+.scoreShow {
+	font-size: 18px;
+	background: url(brass.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+	height: 180px;
+	width: 160px;
+	position: absolute;
+	left: 50%;	
+	margin-left: 350px;
+	top: 150px;
+	border: 3px solid #3F0505;
+}
+
+
+
+.will{
+	background: url(will.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+	height: 220px;
+	width: 240px;
+	position: absolute;
+	left: 50%;	
+	margin-left: 325px;
+	top: 400px;
 }

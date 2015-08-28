@@ -4,6 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
+
 <body>
 	<h1>"WHO, WHAT or WHERE?"</h1>
 	<div class="frame">
@@ -47,15 +48,18 @@
 		<button id="myButton">Play Game / Next Round</button>
 		<button id="resetGame">RESET GAME</button>
 
-		<p> Player "Z" Points:  
-		    <input id="score1" value="0"> </input>
-		</p>
+		
     </div>
+    <div class="scoreShow">
+		<p> PLAYER "Z"</br>
+			<input id="score1" value="0"> </input>
+		</p>
+		<p> PLAYER "M"</br>
+			<input id="score2" value="0"> </input>
+		</p>
+	</div>
 
-<p> Player "M" Points: 
-	<input id="score2" value="0"> </input>
-</p>
-
+	<div class="will"></div>
 
 <!-- the image.Objs script must run first -->
 	<script type="text/javascript" src="imageObjs.js"></script>

@@ -52,6 +52,9 @@ Lastly, thank you to the following for images available online:
 	- 4us2be				Broccoli
 	- SeaAdventures			Puffins
 
+	- DailyPastTime			Will Smith Retro
+							Ricki Jarvis Retro
+
 
 
 
